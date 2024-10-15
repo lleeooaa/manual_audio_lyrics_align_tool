@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+#fileList, #fullLyrics, #selectedLyrics {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#fileList div {
+    cursor: pointer;
+    padding: 2px;
+}
+
+#fileList div:hover {
+    background-color: #e0e0e0;
+}
+
+#fileList div.current {
+    background-color: #add8e6;
+}
+
+#fullLyrics span {
+    cursor: pointer;
+}
+
+#fullLyrics span:hover {
+    background-color: #e0e0e0;
+}
+
+#fullLyrics span.selected {
+    background-color: #add8e6;
+}
+
+#fullLyrics span.aligned {
+    background-color: #90EE90;
+}
+
+button {
+    margin: 10px 5px 10px 0;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio-Lyrics Alignment Tool</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Audio-Lyrics Alignment Tool</h1>
+    
+    <div id="error"></div>
+    <div id="fileList"></div>
+    
+    <audio id="audioPlayer" controls></audio>
+    
+    <div>
+        <h3>Full Lyrics</h3>
+        <div id="fullLyrics"></div>
+    </div>
+    
+    <div>
+        <h3>Selected Lyrics for Current Audio Chunk</h3>
+        <textarea id="selectedLyrics" rows="5" cols="50"></textarea>
+    </div>
+    
+    <button id="insertMusicButton">Insert 【音楽】</button>
+    <button id="saveAndNextButton">Save and Next (Ctrl+S)</button>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
